@@ -1,0 +1,6 @@
+{
+  "name": "مختبر البندول الفيزيائي التفاعلي - Pendulum Lab",
+  "description": "مختبر فيزيائي تفاعلي متقدم لمحاكاة حركة البندول البسيط والبندول المزدوج، وحسابات الطاقة وقوى الشد والسرعة والتحليل الطوري",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
