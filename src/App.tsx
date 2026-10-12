@@ -38,6 +38,7 @@ import { LabExperiments } from './components/LabExperiments';
 import { PhysicsFormulasModal } from './components/PhysicsFormulasModal';
 import { soundManager } from './utils/sound';
 import { PhenomenaHub } from './components/phenomena/PhenomenaHub';
+import { CurriculumHub } from './components/curriculum/CurriculumHub';
 
 export default function App() {
   const [lang, setLang] = useState<Language>('ar');
@@ -487,7 +488,12 @@ export default function App() {
       />
 
       {/* 2. Main Laboratory Workspace Container */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex-1 w-full flex flex-col gap-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex-1 w-full flex flex-col gap-10">
+        {/* Section 0: Egyptian 3rd Secondary Physics Curriculum (8 Chapters) */}
+        <section id="curriculum-section">
+          <CurriculumHub lang={lang} />
+        </section>
+
         {/* Section 1: Interactive Physics Stage & Control Deck */}
         <section id="simulation-section" className="space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">

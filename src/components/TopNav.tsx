@@ -35,6 +35,14 @@ export const TopNav: React.FC<TopNavProps> = ({
         {/* Zone 2: 4-5 Concise Single-Line Navigation Links */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
           <button
+            onClick={() => onNavigateSection('curriculum')}
+            className={`transition-colors whitespace-nowrap hover:text-slate-900 ${
+              activeSection === 'curriculum' ? 'text-sky-600 font-semibold' : ''
+            }`}
+          >
+            {t.navCurriculum}
+          </button>
+          <button
             onClick={() => onNavigateSection('simulation')}
             className={`transition-colors whitespace-nowrap hover:text-slate-900 ${
               activeSection === 'simulation' ? 'text-sky-600 font-semibold' : ''

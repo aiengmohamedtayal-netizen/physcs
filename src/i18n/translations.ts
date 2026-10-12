@@ -11,11 +11,12 @@ export const translations = {
     brandBadge: 'المختبر الفيزيائي التفاعلي',
 
     // Nav
-    navSimulation: 'المحاكاة',
+    navCurriculum: 'منهج 3 ثانوي (مصر)',
+    navSimulation: 'محاكي البندول',
     navPhenomena: 'الظواهر العالمية',
     navGraphs: 'الرسوم البيانية',
     navExperiments: 'التجارب المخبرية',
-    navPhotogate: 'البوابة وساعة الإيقاف',
+    navPhotogate: 'البوابة والمؤقت',
     navTheory: 'القوانين والمعادلات',
 
     // Modes
@@ -143,7 +144,8 @@ export const translations = {
     brandBadge: 'Physics Simulation Studio',
 
     // Nav
-    navSimulation: 'Simulation',
+    navCurriculum: '3rd Secondary Curriculum',
+    navSimulation: 'Pendulum Lab',
     navPhenomena: 'World Phenomena',
     navGraphs: 'Live Graphs',
     navExperiments: 'Guided Labs',
