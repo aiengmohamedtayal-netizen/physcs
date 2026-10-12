@@ -6,8 +6,8 @@ export type Language = 'ar' | 'en';
 
 export const translations = {
   ar: {
-    appTitle: 'مختبر البندول الفيزيائي',
-    appSubtitle: 'محاكاة تفاعلية لحركة البندول، حسابات الطاقة وقوى الشد والتحليل الطوري',
+    appTitle: 'الفيزيا قدامك',
+    appSubtitle: 'معمل الفيزياء التفاعلي الشامل: منهج 3 ثانوي مصر والظواهر العالمية ومحاكي البندول',
     brandBadge: 'المختبر الفيزيائي التفاعلي',
 
     // Nav
@@ -139,8 +139,8 @@ export const translations = {
     metersPerSecSq: 'م/ث²'
   },
   en: {
-    appTitle: 'Interactive Pendulum Lab',
-    appSubtitle: 'High-precision physics simulation, energy breakdown, tension vectors & phase-space analysis',
+    appTitle: 'Physics In Front Of You',
+    appSubtitle: 'Interactive physics laboratory: Secondary curriculum, world phenomena & pendulum simulator',
     brandBadge: 'Physics Simulation Studio',
 
     // Nav

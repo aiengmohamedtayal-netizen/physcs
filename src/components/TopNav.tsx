@@ -1,6 +1,6 @@
 import React from 'react';
 import { Language, translations } from '../i18n/translations';
-import { Languages, BookOpen } from 'lucide-react';
+import { Languages, BookOpen, Atom } from 'lucide-react';
 
 interface TopNavProps {
   lang: Language;
@@ -25,9 +25,9 @@ export const TopNav: React.FC<TopNavProps> = ({
         {/* Zone 1: Brand Wordmark (Single text element, no subtitle pill) */}
         <div className="flex items-center gap-2.5 whitespace-nowrap shrink-0">
           <div className="w-8 h-8 rounded-lg bg-sky-600 flex items-center justify-center text-white font-bold text-base shadow-xs">
-            g
+            <Atom className="w-5 h-5 text-white" />
           </div>
-          <span className="text-base sm:text-lg font-bold tracking-tight text-slate-900 whitespace-nowrap">
+          <span className="text-base sm:text-xl font-extrabold tracking-tight bg-gradient-to-l from-indigo-700 via-sky-700 to-slate-900 bg-clip-text text-transparent whitespace-nowrap">
             {t.appTitle}
           </span>
         </div>
